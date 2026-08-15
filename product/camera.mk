@@ -15,9 +15,9 @@
 
 #Camera
  PRODUCT_PACKAGES += \
-    camera.universal7870 \
+    camera.universal7570 \
     libexynoscamera_shim \
     libstagefright_shim \
     libcamera_client_shim \
-    android.hardware.camera.provider@2.4-impl.exynos7870 \
+    android.hardware.camera.provider@2.4-impl.exynos7570 \
     android.hardware.camera.provider@2.4-service

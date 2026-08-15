@@ -15,14 +15,10 @@
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    fstab.samsungexynos7870 \
+    fstab.samsungexynos7570 \
     init.baseband.rc \
     init.rilchip.rc \
     init.power.rc \
-    init.samsungexynos7870.rc \
-    init.samsungexynos7870.usb.rc \
-    ueventd.samsungexynos7870.rc
-
-# cpboot-daemon
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/ramdisk/cbd:system/bin/cbd
+    init.samsungexynos7570.rc \
+    init.samsungexynos7570.usb.rc \
+    ueventd.samsungexynos7570.rc

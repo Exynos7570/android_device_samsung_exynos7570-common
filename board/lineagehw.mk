@@ -14,4 +14,4 @@
 #
 
 # Lineage HW
-JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|device/samsung/exynos7870-common/lineagehw|**/*.java
+JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|device/samsung/exynos7570-common/lineagehw|**/*.java

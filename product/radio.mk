@@ -19,7 +19,7 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full \
     libsecril-client \
     libsecril-client-sap \
-    modemloader\
+    modemloader \
     rild \
     libreference-ril \
     libril \

@@ -14,13 +14,13 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/exynos7870-common
+LOCAL_PATH := device/samsung/exynos7570-common
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Include common vendor tree
-$(call inherit-product, vendor/samsung/exynos7870-common/exynos7870-common-vendor.mk)
+$(call inherit-product, vendor/samsung/exynos7570-common/exynos7570-common-vendor.mk)
 
 # Inherit splitted common product configs
 -include $(LOCAL_PATH)/product/*.mk
@@ -28,5 +28,5 @@ $(call inherit-product, vendor/samsung/exynos7870-common/exynos7870-common-vendo
 # Call Samsung LSI Board Support Package
 ifneq ($(INCLUDE_EXYNOS_BSP),)
 $(call inherit-product, hardware/samsung_slsi/exynos5/exynos5.mk)
-$(call inherit-product, hardware/samsung_slsi/exynos7870/exynos7870.mk)
+$(call inherit-product, hardware/samsung_slsi/exynos7570/exynos7570.mk)
 endif

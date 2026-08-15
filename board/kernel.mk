@@ -24,7 +24,7 @@ BOARD_KERNEL_PAGESIZE := 2048
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
-KERNEL_TOOLCHAIN := $(BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-android-4.9/bin
+KERNEL_TOOLCHAIN := /opt/toolchains/aarch64-linux-android-4.9/bin
 BOARD_KERNEL_IMAGE_NAME := Image
 TARGET_LINUX_KERNEL_VERSION := 3.18
 
@@ -37,4 +37,4 @@ BOARD_KERNEL_SEPARATED_DT := true
 TARGET_CUSTOM_DTBTOOL := dtbhtoolExynos
 
 # Kernel Path
-TARGET_KERNEL_SOURCE := kernel/samsung/exynos7870
+TARGET_KERNEL_SOURCE := kernel/samsung/exynos7570

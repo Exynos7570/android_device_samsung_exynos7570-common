@@ -2,9 +2,6 @@
 af.fast_track_multiplier=1
 ro.config.vc_call_vol_steps=15
 
-# Factory Reset Protection
-ro.frp.pst=/dev/block/platform/13540000.dwmmc0/by-name/PERSISTENT
-
 # Graphics
 ro.opengles.version=196610
 debug.hwc.skip_dma_types=0,2
