@@ -6,6 +6,7 @@ type nv_log_efs_file, file_type;
 type cpk_efs_file, file_type;
 type imei_efs_file, file_type;
 type prov_efs_file, file_type;
+type bluetooth_efs_file, file_type;
 type sec_efs_file, file_type;
 type wifi_efs_file, file_type;
 type sensor_efs_file, file_type;
