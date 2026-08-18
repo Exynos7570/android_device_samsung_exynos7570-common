@@ -24,7 +24,7 @@ TARGET_PROCESS_SDK_VERSION_OVERRIDE += \
     /system/vendor/bin/hw/rild=27
     
 # SELinux
-BOARD_SEPOLICY_DIRS += device/samsung/exynos7570-common/sepolicy
+# BOARD_SEPOLICY_DIRS += device/samsung/exynos7570-common/sepolicy
 
 # Properties
 TARGET_SYSTEM_PROP := $(LOCAL_PATH)/system.prop
