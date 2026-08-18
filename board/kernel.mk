@@ -28,6 +28,8 @@ KERNEL_TOOLCHAIN := /opt/toolchains/aarch64-linux-android-4.9/bin
 BOARD_KERNEL_IMAGE_NAME := Image
 TARGET_LINUX_KERNEL_VERSION := 3.18
 
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+
 # Custom mkbootimg from hardware/samsung
 BOARD_CUSTOM_BOOTIMG_MK := hardware/samsung/mkbootimg.mk
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100
